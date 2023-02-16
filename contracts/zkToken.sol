@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
 contract zkToken is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable {
-    constructor() ERC20("zkToken", "ZZZK") {
+    constructor() ERC20("bitfangzkToken", "BITFANGZK") {
         _mint(msg.sender, 333333333 * 10 ** decimals());
     }
 
